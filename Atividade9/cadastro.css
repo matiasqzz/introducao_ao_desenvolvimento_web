@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fffafa;
+    
+}
+
+header {
+    background-color: #00cfff;
+    padding: 15px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.form-box {
+    background-color: #dcdcdc;
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linha {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+}
+
+.input-longo {
+    width: 100%;
+}
+
+.input-curto {
+    width: 200px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botoes button {
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.incluir {
+    background-color: green;
+}
+
+.editar {
+    background-color: orange;
+}
+
+.salvar {
+    background-color: #00cfff;
+}
+
+.cancelar {
+    background-color: #00cfff;  
+    color: #00cfff;
+    border: 1px solid #00cfff;
+}
+
+.excluir {
+    background-color: red;
+}
+
+.navegacao {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 375px;
+}
+
+.navegacao button {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
