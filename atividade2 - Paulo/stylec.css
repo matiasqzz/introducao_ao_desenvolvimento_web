@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: #8b2d34;
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+#contato a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#contato a:hover {
+    background-color: #8b2d34;
+    color: white;
+    border-radius: 10px;
+}
+
+#logo img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+#pesquisa input {
+    width: 100%;
+    max-width: 650px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid white;
+    outline: none;
+    transition: border-color 0.5s ease-in-out;
+}
+
+#pesquisa input:focus {
+    border-color: #8b2d34;
+}
+
+#pesquisa input::placeholder {
+    color: #8b2d34;
+    opacity: 0.7; 
+    font-weight: 600;
+}
+.formulario{
+    border: 1px solid; 
+    margin:50px;
+    text-align: center;
+}
+.campo{
+    margin: 20px;
+}
+.input-textarea{
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+#col-12{
+    background-color: #8b2d34;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:white;
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 30px;
+    border: 50px solid #8b2d34;
+    border-radius: 30px;
+}
+button{
+    border-radius: 10px;
+    font-size: 30px;
+}
+button:hover{
+    background-color: #8b2d34;
+    color: white;
+}

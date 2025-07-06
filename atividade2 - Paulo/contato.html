@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylec.css">
+    <link rel="icon" type="image/png" href="paropassemfundo.png">
+    <title>Paropas | Contato</title>
+</head>
+<body>
+    <header id="header">
+        <strong>Loja não oficial.</strong>
+    </header>  
+
+ <nav class = "home">
+    <div id = "logo">
+       <a href="https://paropas.com.br/" target="_blank"><img src="paropas.png" alt="paropas"></a>
+    </div>
+    <div id="pesquisa">
+        <input type="text" placeholder="O que você procura ..." id="pesquisa">
+    </div>
+    <div id="contato">
+        <nav>
+            <a href="http://127.0.0.1:5500/home.html"> Home </a>
+            <a href="http://127.0.0.1:5500/produtos.html"> Produtos </a>
+        </nav>
+    </div>
+ </nav>
+
+    <section class="contato">
+        <div id="upp-center">
+            <h1>Contato</h1>
+        </div>
+        <div id="col-12">
+            <h2 id="tittle">Fale conosco!</h2>
+            <p>Entre em contato, envie-nos suas solicitações, dúvidas, críticas ou sugestões.</p>
+        </div>
+    </section>
+
+    <form action="https://paropas.com.br/send_contact" class="formulario">
+
+        <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="input-text">
+        </div>
+    
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="input-text">
+        </div>
+    
+        <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone" id="telefone" class="input-text">
+        </div>
+    
+        <div class="campo">
+            <label for="setor">Setor</label>
+            <select name="setor" id="setor" class="input-select">
+                <option value="1">Assistência Técnica - Thamires</option>
+                <option value="2">Cobrança - Tanus</option>
+                <option value="3">Marketing</option>
+            </select>
+        </div>
+    
+        <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" class="input-textarea" placeholder="Escreva sua mensagem aqui"></textarea>
+        </div>
+    
+        <div class="campo">
+            <button type="submit" class="botao-enviar">Enviar</button>
+        </div>
+    
+    </form>
+    
+
+
+</body>
+</html>
