@@ -1,0 +1,103 @@
+.Habilidades,.Idiomas,.section1,.section2,.contatos, .Obj{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+     border: 1px solid #000;
+     text-align: center;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 20px;
+}
+.Habilidades{
+    border: solid 5px #d3d3d3;
+    padding: 8px;
+    border-left: solid 3px #d3d3d3;
+}
+.Idiomas{
+    border: solid 5px #d3d3d3;
+    padding: 8px;
+    margin-bottom: 0px;
+    border-left: solid 3px #d3d3d3;
+    padding-bottom: 20px;
+    border-bottom: solid 20px #d3d3d3;
+}
+header{ 
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div.Obj { 
+    background-color: #fff;
+    padding: 8px;
+    border: solid 5px #d3d3d3;
+    border-top: solid 20px #d3d3d3;
+    padding-bottom: 20px;
+    border-left: solid 3px #d3d3d3;
+}
+.section1 {
+    background-color: #fff;
+    color: #000;
+    border: solid 5px #d3d3d3;
+    padding: 8px;
+    border-left: solid 3px #d3d3d3;
+}
+.section1 p{ 
+    margin: 0px;
+}
+.section1 h4{ 
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.section2 p {
+    margin-top: 5px;
+}
+footer{ 
+    background-color: #000;
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: solid 10px #000;
+    font-family:'Courier New', Courier, monospace;
+}
+img{ 
+    width: 100px;
+}
+.contatos{ 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: small;
+}
+.contatos p {
+    border-right: solid 1px;
+    padding-right: 15px;
+}
+.contatos p:last-child{
+    border: none;
+}
+h2, h4 {
+    margin: 0; 
+    padding: 0; 
+    margin-bottom: 5px; 
+  }
+
+  p {
+    margin-top: 10px; 
+    margin-bottom: 0; 
+    padding: 0; 
+  }
+body{
+    margin: 575px;
+    margin-top: 10px; 
+    margin-bottom: 100px;
+}
+.section2{
+    border: solid 5px #d3d3d3;
+    padding: 8px;
+    border-left: solid 3px #d3d3d3;
+}
