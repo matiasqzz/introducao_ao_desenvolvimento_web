@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.layout {
+  width: 100vw;
+  height:100vh;
+  /* align-items: center; */
+  /* justify-content: center; */
+  
+  
+
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / 250px 1fr;
+  /* gap: 8px; */
+}
+
+*{
+  margin:0px;
+  padding:0px;
+  font-family: "Roboto", sans-serif;
+  font-size:17px;
+}
+
+.body{
+  height: 100vh;
+  align-items: center;
+  vertical-align: center;
+  justify-content: center;
+}
+
+.sidebar{
+  grid-area: sidebar;
+  background-color: #d9d9d9;
+}
+
+.main{
+  background-color: #f0f0f0;
+  flex:1;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  /* vertical-align: center; */
+  height: calc(100vh - 90px);
+}
+
+.header{
+  display: flex;
+  background-color: #04c9f4;
+  color: white;
+  text-align: center;
+  height: 45px;
+  align-items: center;
+  vertical-align: center;
+  justify-content: center;
+}
+
+.logo{
+  background-color: #fff8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 377px;
+  height: 368px;
+  font-size:30px;
+}
+
+.footer{
+  display: flex;
+  /* grid-area:footer; */
+  background-color: white;
+  color: #04c9f4;
+  text-align: center;
+  height: 45px;
+  align-items: center;
+  vertical-align: center;
+  justify-content: center;
+}
+
+.cinza{
+  background-color: #d9d9d9;
+}
+
+.selecionado{
+  color:black;
+}
+
+.azul{
+  background-color: #04c9f4;
+}
+
+button{
+  border: none;
+  height: 44px;
+  color: white;
+  width: 160px;
+}
+
+button:hover{
+  filter: brightness(2.4);
+  transition: 0.3s;
+}
+
+form{
+  width:450px;
+  height: auto;
+  margin-bottom:20px;
+  color:#c3b9b9;
+}
+
+.content{
+  width: 80%;
+  height: 80%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+input{
+  border:none;
+  margin-bottom:9px;
+  height:46px;
+  background-color: white;
+}
+
+.w-400{
+  min-width: 400px;
+}
+
+.branco{
+  background-color:#d9d9d9;
+  color:white;
+}
+
+.vermelho{
+  background-color: #f40404;
+  color:white;
+}
+
+
+
+@media (max-width:500px){
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    
+  
+    display: flex;
+    /* gap: 8px; */
+    flex-direction: column;
+}
+}
+
+.w-full{
+  width:100%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="layout">
+        <div class="sidebar">
+            <a href="index.html"><button class="w-full cinza selecionado">Home</button></a>
+            <button class="w-full cinza">Cadastros</button>
+            <a href="cidade.html"><button class="w-full azul">Cidade</button></a>
+            <a href="estado.html"><button class="w-full azul">Estado</button></a>
+            <a href="pais.html"><button class="w-full azul">Pais</button></a>
+            <a href="usuario.html"><button class="w-full azul">Usuario</button></a>
+        </div>
+        <div class="body">
+                <div class="header">
+                    <p>Seja Bem vindo, fulano de tal</p>
+                </div>
+                <div class="main">
+                    <div class="content">
+                        <form>
+                            <label for="nome">Nome<br>
+                              <select class="w-400" id="nome">
+                                <option value="BR">BR</option>
+                                <option value="US">US</option>
+                                <option value="AUS">AUS</option>
+                                <option value="ARG">ARG</option>
+                              </select>
+                            </label>
+                            <br><br>
+                            
+                            <label for="estado">Continente<br>
+                              <select class="w-400" id="estado">
+                                <option value="America">América do sul</option>
+                                <option value="Europa">Europa</option>
+                                <option value="Europa">América do norte</option>
+                                <option value="Europa">Africa</option>
+                              </select>
+                            </label>
+                            <br><br>
+                          
+                            <label for="regiao">Região<br>
+                              <select class="w-400" id="regiao">
+                                <option value="norte">Norte</option>
+                                <option value="sul">Sul</option>
+                                <option value="leste">Leste</option>
+                                <option value="oeste">Oeste</option>
+                              </select>
+                            </label>
+                          </form>
+                    <button class="azul">Buscar</button>
+                    <button class="vermelho">Excluir</button>
+                    <button class="branco">Cancelar</button>
+                    <button class="azul">Salvar</button>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Sistema de armazenamento geografico</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
